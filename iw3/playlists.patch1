@@ -1,0 +1,26 @@
+version 106
+gametype hs_tdm
+name english "^1GET OUT NIGGA"
+name french "Match à mort en équipe"
+name italian "Deathmatch a squadre"
+name german "Team-Deathmatch"
+name spanish "Combate a muerte por equipos"
+name polish "Dru¿ynowy deathmatch"
+name russian "Êîìàíäíûé áîé"
+name japanese "ƒ`[ƒ€ƒfƒXƒ}ƒbƒ`"
+name korean "ÆÀ µ¥½º¸ÅÄ¡"
+script war
+teambased
+
+playlist 1 // hs_tdm gametype
+name english "^1THIS VERSION IS NOT SUPPORTED!"
+description english "^1Please remove your title update to see playlists."
+unlockxp 0
+maxparty 1
+rule party_minplayers 18
+rule party_maxplayers 18
+rule party_matchedplayercount 1
+rule party_readypercentrequired 0
+rule party_gameStartTimerLength 30000
+rule scr_xpscale 1
+mp_convoy,hs_tdm,1
